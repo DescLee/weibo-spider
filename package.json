@@ -5,7 +5,7 @@
   "author": "liyong47 <liyong47@meituan.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "type": "module",
   "dependencies": {
