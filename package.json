@@ -1,0 +1,16 @@
+{
+  "name": "spider",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "liyong47 <liyong47@meituan.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5"
+  },
+  "devDependencies": {}
+}
