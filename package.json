@@ -5,7 +5,8 @@
   "author": "liyong47 <liyong47@meituan.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "debug": "node --inspect-brk=127.0.0.1:9229 src/index.js"
   },
   "type": "module",
   "dependencies": {
