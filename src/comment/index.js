@@ -50,7 +50,7 @@ export default async function start(params) {
             commentPic = commentContentEle.parent.children[commentContentEle.parent.children.length - 2].attribs.alt;
         } else {
             // 取下面大图的链接
-            commentPic = textEle.next?.next?.next?.next?.children[1]?.children[1]?.children[4]?.children[0]?.attribs.src || '--';
+            commentPic = textEle.next?.next?.next?.next?.children ? (textEle.next?.next?.next?.next?.children[1]?.children[1]?.children[4]?.children[0]?.attribs.src || '--') : '';
             commentPic = commentPic.replace('thumb180', 'bmiddle');
             if (commentPic.startsWith('//')) {
                 commentPic = `http:${commentPic}`;
